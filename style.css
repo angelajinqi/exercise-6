@@ -1,0 +1,232 @@
+
+        * { /* Remove default browser spacing */
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            margin: 100px; /* Add spacing around the entire page */ 
+            background-color:black;
+
+            
+        }
+
+.title {
+    font size:4em;
+    color: white;
+
+
+
+}
+/*colour palette*/
+.dot1 {
+  height: 50px;
+  width: 50px;
+  background-color: #0F0F0F;
+  border-radius: 50%;
+  display: inline-block;
+  border: white 1px solid;
+  margin-right: 25px;
+}
+
+.dot2 {
+  height: 50px;
+  width: 50px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+   margin-right: 25px;
+    border: white 1px solid;
+}
+
+.dot3 {
+   height: 50px;
+  width: 50px;
+  background-color: #F5DB9B;
+  border-radius: 50%;
+  display: inline-block;
+   margin-right: 25px;
+    border: white 1px solid;
+}
+
+.dot4 {
+ height: 50px;
+  width: 50px;
+  background-color: #C1C1C3;
+  border-radius: 50%;
+  display: inline-block;
+   margin-right: 25px;
+    border: white 1px solid;
+}
+
+.dot5 {
+  height: 50px;
+  width: 50px;
+  background-color:#91A5C6;
+  border-radius: 50%;
+  display: inline-block;
+   margin-right: 25px;
+    border: white 1px solid;
+}
+
+.dot6 {
+ height: 50px;
+  width: 50px;
+  background-color:#FE5A3F;
+  border-radius: 50%;
+  display: inline-block;
+   margin-right: 25px;
+    border: white 1px solid;
+}
+
+.dot7 {
+  height: 50px;
+  width: 50px;
+  background-color:#8AEED0;
+  border-radius: 50%;
+  display: inline-block;
+   margin-right: 25px;
+    border: white 1px solid;
+}
+
+.colourtxt{
+    display:inline-block;
+}
+
+h6{
+    word-spacing: 25px;
+}
+
+h1{
+     font-family: "TechnicBold";
+     font-size: 8vw;
+}
+
+h2{
+     font-family: "TechnicLite";
+      font-size: 6vw;
+}
+h4{
+    word-spacing: 15vw;
+    color: white;
+}
+
+
+h3{
+     color: white;
+     font-size: 2vw;
+     margin-top: 30px;
+}
+
+p{
+     font-family: "GOST Common";
+     font-size: 1vw;
+}
+
+.inactive{
+    font-family: "Swis721 BT",bold;
+     font-size: 2vw;
+     color: #91A5C6;
+       -webkit-text-stroke: 1px white;
+       text-decoration-line: underline;
+  text-decoration-style: dotted;
+}
+
+.active{
+    font-family: "Swis721 BT",bold;
+     font-size: 2vw;
+      color: black;
+      -webkit-text-stroke: 1px white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+
+}
+.inactivetxt{
+    font-family: "Technic";
+     font-size: 2vw;
+   
+
+}
+
+.activetxt{
+    font-family: "Technic";
+     font-size: 2vw;
+        text-decoration-line: underline;
+  text-decoration-style: solid ;
+  text-decoration-color:#F5DB9B;
+}
+
+.hovertxt{
+    font-family: "Technic";
+     font-size: 2vw;
+     color: #F5DB9B;
+        text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+/*.view{
+    display: inline-block;
+     position: relative;
+}*/
+
+/*input inactive*/
+.rect1{
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 20px; 
+  width: 150px;
+  height: 5px;  
+  margin-top: 30px;
+  opacity: 0.5;
+
+}
+
+.inactive1{
+    opacity: 0.7
+
+}
+
+/*input active*/
+.rect2{
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 20px; 
+  width: 150px;
+  height: 5px;  
+  margin-top: 30px;
+  color: white;
+/*  opacity: 0.7;*/
+  background-color:#91A5C6;
+
+}
+
+.active1{
+      color: black;
+
+}
+
+/*input complete*/
+.rect3{
+  border-radius: 25px;
+  border: 2px solid white;
+  padding: 20px; 
+  width: 150px;
+  height: 5px;  
+  margin-top: 30px;
+  color: white;
+/*  opacity: 0.7;*/
+
+
+}
+.complete1{
+      color: white;
+
+}
+
+img{
+
+}
